@@ -1,4 +1,14 @@
+import Menu from '../components/Menu';
+
 function Sobre() {
-    return <div>Sobre Paraiso das orquideas</div>
+    return (
+        <div>
+            <Menu/>
+            Sobre o Paraiso das Orquideas
+    
+    
+    
+        </div>
+        );
 }
 export default Sobre
