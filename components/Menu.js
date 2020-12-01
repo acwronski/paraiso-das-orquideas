@@ -1,26 +1,26 @@
 import Link from 'next/link';
 
-const linkstyle = {
+const linkStyle = {
     marginRight: 15
 }
 
 const Menu = () => {
     return (
         <div>
-            <link href="/">
-                <a style={linkstyle}>Home</a>
+            <Link href="/">
+                <a style={linkStyle}>Home</a>
 
-            </link>
+            </Link>
 
-            <link href="/sobre">
-                <a style={linkstyle}>Sobre as Orquideas</a>
+            <Link href="/sobre">
+                <a style={linkStyle}>Sobre as Orquideas</a>
 
-            </link>
+            </Link>
 
-            <link href="/contato">
-                <a style={linkstyle}>Contato</a>
+            <Link href="/contato">
+                <a style={linkStyle}>Contato</a>
 
-            </link>
+            </Link>
         </div>
     )
 }
