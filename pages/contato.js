@@ -10,6 +10,7 @@ function Contato() {
             <Menu/>
             Contato
             <Spinner color="dark" />
+            <Spinner color="warning" />
     
     
     
