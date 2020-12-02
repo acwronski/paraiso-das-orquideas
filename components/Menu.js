@@ -21,16 +21,18 @@ const Menu = () => {
     return (
         <div>
             <Navbar color="dark" dark expand="md">
-                <NavbarBrand href="/">reactstrap</NavbarBrand>
+                <NavbarBrand href="/">Zana Orquideas</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
                         <NavItem>
-                            <NavLink href="/components/">Components</NavLink>
+                            <NavLink href="/">Home</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+                            <NavLink href="/sobre">Sobre Orquideas</NavLink>
                         </NavItem>
+                        <NavItem>
+                            <NavLink href="/contato">Contato</NavLink>
                         <UncontrolledDropdown nav inNavbar>
                             <DropdownToggle nav caret>
                                 Options
