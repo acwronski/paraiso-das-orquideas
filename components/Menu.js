@@ -32,7 +32,9 @@ const Menu = () => {
                             <NavLink href="/sobre">Sobre Orquideas</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/contato">Contato</NavLink>
+                            <NavLink href="/contato">Contato
+                            </NavLink>
+                        <NavItem>
                         <UncontrolledDropdown nav inNavbar>
                             <DropdownToggle nav caret>
                                 Options
