@@ -13,9 +13,10 @@ function Contato() {
 
 
             <div className="d-flex justify-content-center">
+                <Spinner color="success" />
             </div>
 
-            <Spinner color="success" />
+            
 
         </div>
     );
