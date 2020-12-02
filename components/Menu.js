@@ -34,7 +34,7 @@ const Menu = () => {
                         <NavItem>
                             <NavLink href="/contato">Contato
                             </NavLink>
-                        <NavItem>
+                        </NavItem>
                         <UncontrolledDropdown nav inNavbar>
                             <DropdownToggle nav caret>
                                 Options
