@@ -7,11 +7,7 @@ import {
     Nav,
     NavItem,
     NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem,
-    NavbarText
+    Container
 } from 'reactstrap';
 
 const Menu = () => {
@@ -21,24 +17,26 @@ const Menu = () => {
     return (
         <div>
             <Navbar color="dark" dark expand="md">
-                <NavbarBrand href="/">Zana Orquideas</NavbarBrand>
-                <NavbarToggler onClick={toggle} />
-                <Collapse isOpen={isOpen} navbar>
-                    <Nav className="mr-auto" navbar>
-                        <NavItem>
-                            <NavLink href="/">Home</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href="/sobre">Sobre Orquideas</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href="/contato">Contato
+                <Container>
+                    <NavbarBrand href="/">Zana Orquideas</NavbarBrand>
+                    <NavbarToggler onClick={toggle} />
+                    <Collapse isOpen={isOpen} navbar>
+                        <Nav className="mr-auto" navbar>
+                            <NavItem>
+                                <NavLink href="/">Home</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink href="/sobre">Sobre Zana Orquideas</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink href="/contato">Contato
                             </NavLink>
-                        </NavItem>
-                        
-                    </Nav>
-                    
-                </Collapse>
+                            </NavItem>
+
+                        </Nav>
+
+                    </Collapse>
+                </Container>
             </Navbar>
         </div>
     );
