@@ -1,8 +1,9 @@
 import Head from 'next/head';
 import Menu from '../components/Menu';
+import {Jumbotron, Container} from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function HomePage() {
+function Home() {
     return (
         <div>
             <Head>
@@ -14,11 +15,9 @@ function HomePage() {
 
             </Head>
             <Menu />
-        Home
-
-
+            Home
 
         </div>
     );
 }
-export default HomePage
+export default Home
