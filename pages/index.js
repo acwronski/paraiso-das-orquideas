@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { fas } from '@fortawesome/free-solid-svg-icons'
+library.add(fas)
 
 function Home() {
     return (
@@ -44,7 +45,7 @@ function Home() {
 
                     <div class="row">
                         <div class="col-lg-4">
-                            <div className='rounded-circle circulo  centralizar'>A
+                            <div className='rounded-circle circulo  centralizar'><FontAwesomeIcon icon='spa'/>
 
                             </div>
                             <h2 className='mt-4   mb-4'>Tratamento de fungos</h2>
@@ -52,7 +53,7 @@ function Home() {
                             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
                         </div>
                         <div class="col-lg-4">
-                            <div className='rounded-circle circulo  centralizar'>B
+                            <div className='rounded-circle circulo  centralizar'><FontAwesomeIcon icon='seedling'/>
 
                         </div>
                             <h2 className='mt-4 mb-4'>Torta da Zana</h2>
@@ -60,7 +61,7 @@ function Home() {
                             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
                         </div>
                         <div class="col-lg-4">
-                        <div className='rounded-circle circulo  centralizar'>C
+                        <div className='rounded-circle circulo  centralizar'><FontAwesomeIcon icon='pagelines'/>
 
                         </div>
                             <h2 className='mt-4   mb-4'>Tratamento Cochinilhas</h2>
