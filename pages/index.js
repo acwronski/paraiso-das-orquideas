@@ -13,18 +13,32 @@ function Home() {
             </Head>
             <Menu />
             <Jumbotron fluid className='servicos'>
-    <style>{`.servicos{
-        padding-top: 80px;
-        padding-botton: 80px;
-        background-color: #000;
-        color: #fff;
-    }`}</style>
+                <style>{`.servicos{
+                    padding-top: 80px;
+                    padding-botton: 80px;
+                    background-color: #000;
+                    color: #fff;
+                }`}</style>
                 <Container className='text-center'>
                     <h1 className='display-4'>Serviços da Empresa</h1>
-                    <p className='lead'>Temos tudo que suas orquideas precisa para ficarem lindas</p>
+                    <p className='lead'>Temos tudo que suas orquideas precisam para ficarem lindas</p>
                 </Container>
             </Jumbotron>
-            Home
+
+            <Jumbotron fluid className='servicos2'>
+                <style>{`.servicos2{
+                    padding-top: 80px;
+                    padding-botton: 80px;
+                    background-color: #00ff00;
+                    color: #fff;
+                    margin-botton: 0rem !important
+                }`}</style>
+                <Container className='text-center'>
+                    <h1 className='display-4'>Como acabar com fungos e cochinilhas</h1>
+                    <p className='lead'>Temos tudo que suas orquideas precisam para ficarem lindas</p>
+                </Container>
+            </Jumbotron>
+            
 
         </div>
     );
