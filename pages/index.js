@@ -13,9 +13,9 @@ function Home() {
             </Head>
             <Menu />
             <Jumbotron fluid className='servicos'>
-                <Container>
-                    <h1>Serviços da Empresa</h1>
-                    <p>Temos tudo que suas orquideas precisa para ficarem lindas</p>
+                <Container className='text-center'>
+                    <h1 className='display-4'>Serviços da Empresa</h1>
+                    <p className='lead'>Temos tudo que suas orquideas precisa para ficarem lindas</p>
                 </Container>
             </Jumbotron>
             Home
