@@ -15,9 +15,10 @@ function Home() {
             <Jumbotron fluid className='servicos'>
                 <style>{`.servicos{
                     padding-top: 80px;
-                    padding-botton: 80px;
+                    padding-bottom: 80px;
                     background-color: #000;
                     color: #fff;
+                    margin-bottom: 0rem !important;
                 }`}</style>
                 <Container className='text-center'>
                     <h1 className='display-4'>Serviços da Empresa</h1>
@@ -28,10 +29,10 @@ function Home() {
             <Jumbotron fluid className='servicos2'>
                 <style>{`.servicos2{
                     padding-top: 80px;
-                    padding-botton: 80px;
+                    padding-bottom: 80px;
                     background-color: #00ff00;
                     color: #fff;
-                    margin-botton: 0rem !important
+                    
                 }`}</style>
                 <Container className='text-center'>
                     <h1 className='display-4'>Como acabar com fungos e cochinilhas</h1>
