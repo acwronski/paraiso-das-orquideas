@@ -13,6 +13,12 @@ function Home() {
             </Head>
             <Menu />
             <Jumbotron fluid className='servicos'>
+    <style>{`.servicos{
+        padding-top: 80px;
+        padding-botton: 80px;
+        background-color: #000;
+        color: #fff;
+    }`}</style>
                 <Container className='text-center'>
                     <h1 className='display-4'>Serviços da Empresa</h1>
                     <p className='lead'>Temos tudo que suas orquideas precisa para ficarem lindas</p>
