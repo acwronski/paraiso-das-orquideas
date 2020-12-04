@@ -3,6 +3,10 @@ import Menu from '../components/Menu';
 import { Jumbotron, Container } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+
 function Home() {
     return (
         <div>
@@ -43,7 +47,7 @@ function Home() {
                             <div className='rounded-circle circulo  centralizar'>A
 
                             </div>
-                            <h2 className='mt-4  mb-4'>Tratamento de fungos</h2>
+                            <h2 className='mt-4   mb-4'>Tratamento de fungos</h2>
                             <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
                             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
                         </div>
@@ -59,7 +63,7 @@ function Home() {
                         <div className='rounded-circle circulo  centralizar'>C
 
                         </div>
-                            <h2 className='mt-4  mb-4'>Tratamento Cochinilhas</h2>
+                            <h2 className='mt-4   mb-4'>Tratamento Cochinilhas</h2>
                             <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
                             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
                         </div>
