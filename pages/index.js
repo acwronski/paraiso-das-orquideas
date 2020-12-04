@@ -61,7 +61,7 @@ function Home() {
                             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
                         </div>
                         <div class="col-lg-4">
-                        <div className='rounded-circle circulo  centralizar'><FontAwesomeIcon icon='pagelines'/>
+                        <div className='rounded-circle circulo  centralizar'><FontAwesomeIcon icon='leaf'/>
 
                         </div>
                             <h2 className='mt-4   mb-4'>Tratamento Cochinilhas</h2>
