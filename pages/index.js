@@ -50,7 +50,7 @@ function Home() {
 
                             </div>
                             <h2 className='mt-4   mb-4'>Tratamento de fungos</h2>
-                            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                            <p>doenças que causam manchas você trata fácil com vinagre de maçã, mas só quando estão no começo. Fungos e bactérias gostam de uma ligeira acidez no substrato. O vinagre é um dos ingredientes caseiros mais ácidos e o leite de magnésia, um dos mais alcalinos que existem. Esses produtos desequilibram o pH ideal dos microorganismos, dificultando o desenvolvimento de doenças. Borrife as orquídeas com uma colher de sopa de vinagre de maçã ou de leite de magnésia diluída em um litro de água – faça no final da tarde ou de manhã muito cedinho, para o sol não queimar as folhas recém-borrifadas. Essa medida só funciona bem quanto as doenças ainda não se espalharam por muitas plantas, ou seja, se já tiver uma infestação na sua casa, o jeito é usar calda bordalesa (fungos e bactérias em geral), calda de camomila (específica para ferrugem) ou leite cru (para oídio e míldio). Na dúvida sobre como identificar cada uma das doenças, dê uma olhada na galeria de manchas foliares.</p>
                             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
                         </div>
                         <div class="col-lg-4">
@@ -58,7 +58,7 @@ function Home() {
 
                         </div>
                             <h2 className='mt-4 mb-4'>Torta da Zana</h2>
-                            <p>A escolha entre um e outro vai depender das preferências de cada cultivador. Eu não gosto de adubos orgânicos, tais como torta de mamona, farinha de osso e bokashi, porque cultivo minhas plantas em apartamento. Com o apodrecimento destes materiais, surgem os mais desagradáveis odores, além da atração de insetos indesejáveis. Para o cultivo dentro de casa, este método não é muito cômodo.</p>
+                            <p>Evidentemente, no nosso cultivo doméstico, ou mesmo em estufas comerciais, devemos suprir esta demanda por nutrientes de uma forma artificial. Mas não é necessário enlouquecer com um esquema alucinante de adubações. O importante é entender quais são as opções disponíveis de fertilizantes e escolher o método que melhor se adequa à rotina e ao ambiente de cultivo de cada um. Existem basicamente dois tipos de adubos disponíveis para jardinagem: o orgânico e o inorgânico, erroneamente chamado de adubo químico. O fertilizante orgânico precisa ser decomposto por micro-organismos, fungos e bactérias, que vão liberar os nutrientes para serem absorvidos pelas raízes das orquídeas. Já o composto inorgânico, que tem fórmulas variadas, já entrega todos os elementos necessários ao desenvolvimento da planta, sob a forma de macro e micronutrientes.</p>
                             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
                         </div>
                         <div class="col-lg-4">
