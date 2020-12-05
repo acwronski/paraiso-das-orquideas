@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Menu from '../components/Menu';
 import { Jumbotron, Container } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {View, Image} from 'react';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -73,6 +74,12 @@ function Home() {
                     </div>
                 </Container>
             </Jumbotron>
+            <view>
+                <image source={require('../img/orquidea.jpg')}/>
+
+                
+
+            </view>
 
 
 
