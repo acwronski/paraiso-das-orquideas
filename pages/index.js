@@ -29,6 +29,7 @@ function Home() {
                     width: 140px;
                     height: 140px;
                     background-color: #fed136;
+                    color: #009000;
                     font-size: 52px;
                     padding-top: 24px;
                 }
