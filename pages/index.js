@@ -66,7 +66,8 @@ function Home() {
 
                         </div>
                             <h2 className='mt-4   mb-4'>Tratamento Cochinilhas</h2>
-                            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                            <p>Quando se fala em praga de jardim, quase sempre se culpa o vilão errado. Respondo pessoalmente a mais de mil mensagens por semana só no Instagram do Minhas Plantas e posso dizer que alguém deveria fazer a defesa dos fungos. Quedê o advogado desses caras, gente? Se você acha que tudo o que dá ruim com suas plantas é culpa de "fungo branco" ou das formigas, aqui vão, de cara, duas informações chocantes. A primeira: fungos raramente são brancos, aliás, como uma frieira nos pés, a gente não vê o fungo e, sim, o sintoma da doença. O que a maioria das pessoas chama de fungo branco é, na verdade, um bichinho bem visível, a cochonilha-farinhosa. Você nunca terá sucesso em acabar com um praga se nao souber com que praga esta lidando</p>
+                            <p>Segunda informação chocante: formigas raramente são as vilãs, exceto, é claro, se estiver falando de formigas-cortadeiras, mas raramente é delas que reclamamos. Quase sempre, as pessoas se incomodam com aquelas formiguinhas pequenas, de açúcar, que aparecem nas plantas adivinha só atrás do quê? Errou se falou flor, folha, raiz. Essas formigas querem, mesmo, é cochonilha. Pá! Taí a danada de novo! Vem cá entender quais são as três pragas mais comuns, pra lutar com as armas certas.</p>
                             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
                         </div>
                     </div>
