@@ -1,3 +1,5 @@
+import React from 'react';
+import Axios from 'axios';
 import Head from 'next/head';
 import Menu from '../components/Menu';
 import { Jumbotron, Container } from 'reactstrap';
@@ -9,8 +11,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 library.add(fas)
 
-function Home() {
-    return (
+const Home = (data) => (
         <div>
             <Head>
                 <title>Home Zana Orquideas</title>
@@ -86,5 +87,11 @@ function Home() {
 
         </div>
     );
-}
-export default Home
+    Home.getInitialProps = async () => {
+        var response = await Axios.get('http://localhost:8080/home');
+        console.log(response);
+
+        return {response: response.data}
+    }
+
+    export default Home
