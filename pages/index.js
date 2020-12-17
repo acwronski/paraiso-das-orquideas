@@ -88,7 +88,7 @@ const Home = (data) => (
         </div>
     );
     Home.getInitialProps = async () => {
-        var response = await Axios.get('http://localhost:8080/home');
+        var response = await axios.get('http://localhost:8080/home');
         console.log(response);
 
         return {response: response.data}
